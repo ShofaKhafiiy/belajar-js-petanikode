@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Window</title>
+  </head>
+  <body>
+    <button onclick="alert('nama saya shofa')">klik ini</button>
+
+    <script>
+      let yakin = confirm("Apakah kamu yakin ingin mengunjungi petanikode?");
+
+      if (yakin) {
+        window.location = "https://www.petanikode.com";
+      } else {
+        document.write("Baiklah, tetap disini saja yaa :)");
+      }
+
+      let nama = prompt("Siapa nama kamu?", "");
+      document.write("<p>Hello " + nama + " </p>");
+    </script>
+  </body>
+</html>
